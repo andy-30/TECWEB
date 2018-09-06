@@ -1,0 +1,56 @@
+.container{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    
+}
+form{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.label{
+    font-style: italic;
+}
+
+select{
+    background-color: rgb(122, 190, 245);
+    font-weight: bolder;
+    color: black;
+}
+
+select:hover{
+    background-color:  white;
+    font-weight:bolder;
+}
+
+input[type = "text"]{
+    width: 50%;
+    background-color: rgb(179, 212, 240);
+    font-weight: bolder;
+    color: black;    
+
+}
+
+input[type="text"]:focus{
+    background-color:  white;
+    font-weight:bolder;
+}
+
+.textarea{
+    background-color: rgb(179, 212, 240);    
+    font-weight: bolder;
+
+}
+
+textarea:focus{
+    background-color: white;    
+    font-weight: bolder;
+
+}
+
+
+
+

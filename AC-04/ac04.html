@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+                <meta charset="utf-8" />
+                <title>Cadastro de Alunos</title>  <!--Título da página -->
+                <link rel = "stylesheet" href="style.css">   
+        </head>
+            <body>
+            <div class="container">
+
+                    <h2>Cadastro de Alunos</h2><br><br>      
+       
+                       <form> <!--Formulário-->
+                           <label class="label" for="nome_completo">Nome Completo: </label> <br>                               
+                           <input type="text" maxlength = "20" name = "nome" id = "nome_completo"/>
+                           <br/><br/>
+                           <label class="label" for="rg">RG: </label> <br><br>                                 
+                           <input type="text" name = "rg" id = "rg"/>
+                           <br/><br/>
+                           <label class="label" for="cpf">CPF: </label><br>                               
+                           <input type="text" maxlength = "11"name = "cpf" id = "cpf"/>
+                           <br/><br/>
+                           <label class="label" for="endereco">Endereço: </label><br>                                 
+                           <input type="text" maxlength = "30" id = "endereco"/>
+                           <br/><br/>
+                           <label class="label" for="cidade">Cidade: </label><br>                                
+                           <input type="text" name = "cidade" id = "cidade"/>
+                           <br/><br/>
+                           <label class="label" for="uf">UF: </label>                           
+                           <select>
+                                   <option name = "uf" id = "uf" value="">Selecione</option>
+                                   <option name = "uf" id = "uf" value="AC">Acre</option>
+                                   <option name = "uf" id = "uf" value="AL">Alagoas</option>
+                                   <option name = "uf" id = "uf" value="AP">Amapá</option>
+                                   <option name = "uf" id = "uf" value="AM">Amazonas</option>
+                                   <option name = "uf" id = "uf" value="BA">Bahia</option>
+                                   <option name = "uf" id = "uf" value="CE">Ceará</option>
+                                   <option name = "uf" id = "uf" value="DF">Distrito Federal</option>
+                                   <option name = "uf" id = "uf" value="ES">Espirito Santo</option>
+                                   <option name = "uf" id = "uf" value="GO">Goiás</option>
+                                   <option name = "uf" id = "uf" value="MA">Maranhão</option>
+                                   <option name = "uf" id = "uf" value="MS">Mato Grosso do Sul</option>
+                                   <option name = "uf" id = "uf" value="MT">Mato Grosso</option>
+                                   <option name = "uf" id = "uf" value="MG">Minas Gerais</option>
+                                   <option name = "uf" id = "uf" value="PA">Pará</option>
+                                   <option name = "uf" id = "uf" value="PB">Paraíba</option>
+                                   <option name = "uf" id = "uf" value="PR">Paraná</option>
+                                   <option name = "uf" id = "uf" value="PE">Pernambuco</option>
+                                   <option name = "uf" id = "uf" value="PI">Piauí</option>
+                                   <option name = "uf" id = "uf" value="RJ">Rio de Janeiro</option>
+                                   <option name = "uf" id = "uf" value="RN">Rio Grande do Norte</option>
+                                   <option name = "uf" id = "uf" value="RS">Rio Grande do Sul</option>
+                                   <option name = "uf" id = "uf" value="RO">Rondônia</option>
+                                   <option name = "uf" id = "uf" value="RR">Roraima</option>
+                                   <option name = "uf" id = "uf" value="SC">Santa Catarina</option>
+                                   <option name = "uf" id = "uf" value="SP">São Paulo</option>
+                                   <option name = "uf" id = "uf" value="SE">Sergipe</option>
+                                   <option name = "uf" id = "uf" value="TO">Tocantins</option>
+                               </select>
+                               <br/><br/>  
+                           <label class="label" for="e-mail">E-mail: </label> <br>                                 
+                           <input type="text" name="e-mail" id = "e-mail"/>                    
+                           <br/><br/>
+                           Curso:
+                           <select>
+                                   <option value="">Selecione</option>
+                                   <option value="Redes">Redes</option>
+                                   <option value="SI">Sistemas de Informação</option>
+                                   <option value="ADS">Análise e Desenvolvimento de Sistemas</option>
+                           </select>                    
+                           <br/><br/>  
+                            Rede Sociais:
+                                   <br/><br/>        
+                                   <input type="checkbox" name="Facebook"/> Facebook <br/><br/>
+                                   <input type="checkbox" name="Twitter"/> Twitter<br/><br/>
+                                   <input type="checkbox" name="WhatsApp"/> WhatsApp <br/><br/>
+                                   <input type="checkbox" name="Outros"/> Outros <input type="text"/>
+                           <br/><br/>
+                           <label class="label" for="comentario">Comente sobre o motivo da sua inscrição na faculdade: </label> 
+                           <br/><br/>                                
+                           <textarea class = "textarea" rows="4" cols="50" size ="100" maxlength = "100" name="comentario" id="comentario"></textarea>                    
+                           <br/><br/>                                         
+                           <br/><br/>  
+                                   
+                           <button type="submit" name="mybutton" value="ok"> Enviar</button><br><br>                                              </form>                
+            </div>
+            </body>
+    </html>
